@@ -2,12 +2,12 @@
 <microbloggingSite>
     <users>
         <user>
-            <username>c-effah</username>
-            <name>Collins Effah</name>
-            <email>effaholiver@gmail.com</email>
+            <username>group-4-a</username>
+            <name>Group 4 A</name>
+            <email>Group-4-1@gmail.com</email>
             <bio>
-                I am a skilled and dedicated computer science student with three (3) 
-                years of experience in web development. Currently, I am expanding my expertise 
+                We're skilled and dedicated computer science students with three (3) 
+                years of experience in web development. Currently, We're expanding o expertise 
                 in cybersecurity and cloud computing.
             </bio>
             <posts>
@@ -34,8 +34,8 @@
         <!-- More user entries can be added here -->
 
         <user>
-            <username>willi-Saah</username>
-            <name>William Saah</name>
+            <username>Group-4-b</username>
+            <name>Group 4 B</name>
             <email>williberk@gmail.com</email>
             <bio>
                 I am a skilled and dedicated computer science student with three (3) 
@@ -44,7 +44,7 @@
             </bio>
             <posts>
                 <post>
-                    <postId>1</postId>
+                    <postId>2</postId>
                     <content>
                         Blockchain tech is transforming industries with decentralization and transparency. 
                         Cryptocurrencies like Bitcoin and Ethereum offer investment opportunities and 

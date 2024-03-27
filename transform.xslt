@@ -7,6 +7,11 @@
             </head>
             <body>
                 <h1>Microblogging Site Project</h1>
+                <h3>Group 4</h3>
+                <h3>Programme: HND Computer Science</h3>
+                <br></br>   <br></br> 
+
+
                 
                 <h2>Users and Posts</h2>
                 <xsl:apply-templates select="/microbloggingSite/users/user"/>
