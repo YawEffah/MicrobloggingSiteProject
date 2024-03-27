@@ -4,16 +4,73 @@
         <html>
             <head>
                 <title>Microblogging Site</title>
+                <style>
+
+                html, body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        background: darkgrey;
+                    }
+                    h1 {
+                        text-align: center;
+                    }
+
+                    h2{
+                        text-align: center;
+                        font-size: 40px;
+                        padding: 20px;
+                        width: 90%;
+                        margin: 30px;
+                        color: green;
+                        border-radius: 10px;
+                        background-color: #f1f1f1;
+                    }
+
+                    
+                    h3 {
+                        color: blue;
+                        width: 30%;
+                        margin:30px;
+                        padding:10px;
+                        border-radius: 10px;
+                        background-color: #f1f1f1;
+                    }
+
+                    h4{
+                        color: blue;
+                        font-weight: bold;
+                    }
+
+                    div {
+                        margin: 30px;
+                        padding: 20px;
+                        background: white;
+                        width: 90%;
+                        border-radius: 10px;
+                        background-color: #f1f1f1;
+                    }
+                    ul {
+                        list-style-type: none;
+                        padding: 0;
+                    }
+                    li {
+                        margin: 10px;
+                        padding: 10px;
+                    }
+                </style>
             </head>
             <body>
                 <h1>Microblogging Site Project</h1>
-                <h3>Group 4</h3>
-                <h3>Programme: HND Computer Science</h3>
+                <h2>
+                    <strong>Group 4</strong>
+                    <p>Programme: HND Computer Science</p>
+                </h2>
                 <br></br>   <br></br> 
 
 
                 
-                <h2>Users and Posts</h2>
+                <h3>Users and Posts</h3>
                 <xsl:apply-templates select="/microbloggingSite/users/user"/>
             </body>
         </html>
@@ -21,11 +78,11 @@
     
     <xsl:template match="user">
         <div>
-            <h2><xsl:value-of select="name"/></h2>
+            <h4><xsl:value-of select="name"/></h4>
             <p><strong>Username:</strong> <xsl:value-of select="username"/></p>
             <p><strong>Email:</strong> <xsl:value-of select="email"/></p>
             <p><strong>Bio:</strong> <xsl:value-of select="bio"/></p>
-            <h3>Posts</h3>
+            <h4>Posts</h4>
             <ul>
                 <xsl:apply-templates select="posts/post"/>
             </ul>
